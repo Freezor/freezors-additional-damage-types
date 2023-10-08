@@ -1,0 +1,65 @@
+{
+  "id": "freezors-additional-damage-types",
+  "title": "Freezor's Additional Damage Types",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Freezor",
+      "url": "https://github.com/Freezor"
+    }
+  ],
+  "scripts": [
+    "scripts/setup.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "freetors-damage-types",
+      "label": "Freezor's Damage Types",
+      "path": "packs/freetors-damage-types",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fdt-beispiel-items",
+      "label": "FDT-Beispiel Items",
+      "path": "packs/fdt-beispiel-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
