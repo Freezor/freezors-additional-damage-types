@@ -1,4 +1,3 @@
-
 Hooks.on('init', () => {
     const damageTypeWaterTranslation = game.i18n.localize("DamageType.Water");
     const damageTypeEarthTranslation = game.i18n.localize("DamageType.Earth");
