@@ -4,4 +4,7 @@ Hooks.on('init', () => {
 
     CONFIG.DND5E.damageTypes['water'] = damageTypeWaterTranslation;
     CONFIG.DND5E.damageTypes['earth'] = damageTypeEarthTranslation;
+
+    CONFIG.DND5E.damageResistanceTypes ['earth'] = damageTypeEarthTranslation;
+    CONFIG.DND5E.damageResistanceTypes ['water'] = damageTypeWaterTranslation;
 });

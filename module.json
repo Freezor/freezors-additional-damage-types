@@ -18,9 +18,7 @@
   "authors": [
     {
       "name": "Freezor",
-      "url": "https://github.com/Freezor",
-      "buymeacoffee": "buymeacoffee.com/owahu"
-
+      "url": "https://github.com/Freezor"
     }
   ],
   "scripts": [
@@ -57,6 +55,17 @@
       "label": "FDT-Beispiel Items",
       "path": "packs/fdt-beispiel-items",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fdt-beispiel-kreaturen",
+      "label": "FDT-Beispiel Kreaturen",
+      "path": "packs/fdt-beispiel-kreaturen",
+      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
