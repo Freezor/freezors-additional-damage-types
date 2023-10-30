@@ -1,5 +1,3 @@
-2023/10/08-19:28:37.428 4aa0 Delete type=3 #1
-2023/10/08-19:44:47.841 2d4 Level-0 table #5: started
-2023/10/08-19:44:47.844 2d4 Level-0 table #5: 5303 bytes OK
-2023/10/08-19:44:47.845 2d4 Delete type=0 #3
-2023/10/08-19:44:47.852 2d4 Manual compaction at level-0 from '!items!TSCclJUMwB7kY5PV' @ 72057594037927935 : 1 .. '!items!najRGy9YSLRttbi9' @ 0 : 0; will stop at (end)
+2023/10/26-21:15:39.699 ddc Recovering log #164
+2023/10/26-21:15:39.704 ddc Delete type=0 #164
+2023/10/26-21:15:39.704 ddc Delete type=3 #162
